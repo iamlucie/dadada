@@ -4,7 +4,7 @@ A utility for design and development to protect sensitive copy when fine-tuning 
 
 If you find this genuinely useful — [buy me a coffee ☕](https://buymeacoffee.com/lucieostd) (and ocassionally some credits).
 
-[MIT License](LICENSE) — free to use, just keep the credit (it helps).
+[MIT License](LICENSE) — free to use, just keep some form of credit (it helps).
 
 ---
 
