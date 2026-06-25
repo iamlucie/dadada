@@ -1,6 +1,6 @@
 # Dadada: A better *Lorem Ipsum* for AI-enhanced design
 
-A utility for design and development to protect sensitive copy when fine-tuning layouts of html and other documents that won't go publicly online. Replaces real copy with a "dada" sequence of letters and numbers in a way that preserves overall copy shape ±1 letter for some easy layout stress testing.
+A utility for design and development to protect sensitive copy when fine-tuning layouts of html and other documents that won't go publicly online. Uses obfuscation, not encryption - replaces real copy with a "dada" sequence of letters and numbers in a way that preserves overall copy shape ±1 letter for some easy layout stress testing.
 
 If you find this genuinely useful [buy me a coffee ☕](https://buymeacoffee.com/lucieostd) (and ocassionally some credits).
 
@@ -12,7 +12,7 @@ If you find this genuinely useful [buy me a coffee ☕](https://buymeacoffee.com
 
 As of mid-2026, every major AI-powered design and coding tool—Figma, ChatGPT, Gemini, Lovable, v0, Cursor—uses what you type and paste as training data by default on free tiers. You have to actively opt out, if that option even exists. And even when you do opt out, your text still passes through their servers. → [Check your tool](#-ai-tool-training-policies-as-of-mid-2026)
 
-This matters when your copy contains unreleased feature names, pricing, brand strategy, or client work. Pasting it into an AI tool to fine-tune a layout is enough for it to be logged and potentially used.
+This matters when your copy contains unreleased feature names, pricing, brand strategy, or client work. Pasting it into an AI tool to fine-tune a layout is enough for it to be logged and potentially used. See how it works:
 
 Standard filler text like *Lorem Ipsum* doesn't solve this cleanly—it fails to mimic the true structural "texture" of real language: the specific rhythm of capital letters, word lengths, ascenders (like `t, d, f`), and descenders (like `g, p, y`). In the past, when you designed against fake text, your layouts broke. Today, they are less fragile but accurate copy shape makes AI get you better results. Layouts designed around Lorem Ipsum also often lack characters special to local languages, which matters when you work for clients from multiple regions.
 
