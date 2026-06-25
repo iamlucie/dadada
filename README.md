@@ -16,7 +16,7 @@ This matters when your copy contains unreleased feature names, pricing, brand st
 
 Standard filler text like *Lorem Ipsum* doesn't solve this cleanly—it fails to mimic the true structural "texture" of real language: the specific rhythm of capital letters, word lengths, ascenders (like `t, d, f`), and descenders (like `g, p, y`). In the past, when you designed against fake text, your layouts broke. Today, they are less fragile but accurate copy shape makes AI get you better results. Layouts designed around Lorem Ipsum also often lack characters special to local languages, which matters when you work for clients from multiple regions.
 
-**Dadada** fixes both problems. It converts your actual copy into a filler text with the same visual shape. It scrambles the letters while preserves the typographic silhouette and visual weight of your paragraphs. What arrives on those servers is unreadable gibberish that still looks like real copy in your designs.
+**Dadada** fixes both problems. It converts your actual copy into a filler text with the same visual shape. It scrambles the letters while preserving the typographic silhouette and visual weight of your paragraphs. What arrives on those servers is unreadable gibberish that still looks like real copy in your designs.
 
 Two secondary risks Dadada also covers:
 
