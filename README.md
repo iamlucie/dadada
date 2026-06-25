@@ -199,13 +199,13 @@ python3 dadada.py
 
 ## 🛡️ Security & Privacy: An Educational Note
 
-If you are new to scripting and local automation, welcome! Here are a few foundational privacy concepts to help you understand how this script handles data.
+If you are new to scripting, welcome! Here are a few foundational privacy concepts to help you understand how this script handles data.
 
-**100% Local and Air-Gapped:** This script runs entirely on your physical machine. It does not connect to the internet, it does not send your text to an external server, and it does not store your history. It is completely private to your computer.
+**It runs locally:** This script runs entirely on your physical machine. It does not connect to the internet, it does not send your text to an external server, and it does not store your history. It is completely private to your computer.
 
-**Local Safety vs. Absolute Cryptography:** This script provides obfuscation, not military-grade encryption. Because it keeps your spacing and word punctuation intact, a highly sophisticated script or advanced AI model could eventually guess what some words mean through structural puzzles. It is incredibly safe for preventing accidental leaks, onlookers, or automated web-scraping, but you should still avoid copying highly regulated data like active passwords, trade secrets, or medical records.
+**Obfuscation vs. cryptography:** This script provides obfuscation, not encryption. What that means? Because it keeps your spacing and word punctuation intact, a highly sophisticated script or advanced AI model trying to understand the copy could eventually guess what some words mean through solving it like a structural puzzle. It is still reasonably safe for preventing accidental leaks, people watching over your shoulder, or AI trying to quickly understand the text without directing it to do that, while actually having a different task. Here I am still working with the assumption that LLMs are not curious and do jobs they were trained for. Also when briefly testing this with currently available Claude models, they either refused to try or constantly asked for a hint.
 
-**The Clipboard Is Shared:** Your operating system's clipboard is a shared playground. Any app running in the background can technically see what you have copied. If you are dealing with ultra-classified text, you can bypass the clipboard entirely by feeding a local text file into the script using your shell:
+**Your computer clipboard is not private:** Your operating system's clipboard is a shared playground for you and apps. It means any app running in the background can technically see what you have copied. If you are dealing with ultra-classified text, you can bypass the clipboard entirely by feeding a local text file into the script using your shell:
 
 ```bash
 python3 dadada.py < secure_text.txt > obfuscated.txt
