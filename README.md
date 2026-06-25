@@ -2,9 +2,9 @@
 
 A utility for design and development to protect sensitive copy when fine-tuning layouts of html and other documents that won't go publicly online. Replaces real copy with a "dada" sequence of letters and numbers in a way that preserves overall copy shape ±1 letter for some easy layout stress testing.
 
-If you find this genuinely useful — [buy me a coffee ☕](https://buymeacoffee.com/lucieostd) (and ocassionally some credits).
+If you find this genuinely useful [buy me a coffee ☕](https://buymeacoffee.com/lucieostd) (and ocassionally some credits).
 
-[MIT License](LICENSE) — free to use, just keep some form of credit (it helps).
+[MIT License](LICENSE): Free to use at your own risk, a mention or credit helps.
 
 ---
 
